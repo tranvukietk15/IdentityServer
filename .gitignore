@@ -17,10 +17,10 @@ nupkg/
 *.userosscache
 *.sln.docstates
 
-bin/
-**/bin/
-*.cache
-**/obj
+_ReSharper.*
+bin
+obj
+packages
 
 # Build results
 [Dd]ebug/
