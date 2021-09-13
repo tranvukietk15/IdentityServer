@@ -20,6 +20,7 @@ nupkg/
 bin/
 **/bin/
 *.cache
+**/obj
 
 # Build results
 [Dd]ebug/
