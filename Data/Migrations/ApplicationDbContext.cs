@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace IdentityServer.Data
+namespace IdentityServer.Data.Migrations
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, Role, Guid>
     {

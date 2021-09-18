@@ -4,20 +4,20 @@
 
 using System;
 using System.Reflection;
-using IdentityServer.Data;
+using IdentityServer.Data.Migrations;
 using IdentityServer.Models;
+using IdentityServer.Quickstart;
 using IdentityServer4;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.EntityFrameworkCore;
-using IdentityServerHost.Quickstart.UI;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
-namespace net5_is4ef
+namespace IdentityServer
 {
     public class Startup
     {
